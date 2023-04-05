@@ -14,7 +14,33 @@ let timer;
 
 // TODO: Create an array of questions for user input
 const questions = [
-
+    {
+        question: "How do you define a JavaScript file in HTML?",
+        options: ["<js>", "<script>", "<javascript>", "<code>"],
+        correct: 1
+    },
+    {
+        question: "Which is not a language learned in class?",
+        options: ["CSS", "Javascript", "JavaSeed", "HTML"],
+        correct: 2
+    },
+    {
+        question: "What is the correct syntax for referring to an external script called 'script.js'?",
+        options: [
+            "<script src='script.js'>",
+            "<script href='script.js'>",
+            "<script name='script.js'>",
+            "<script link='script.js'>"
+        ],
+        correct: 0
+    },
+    {
+        question: "Which of these is not a part of a file structure",
+        options: [
+            "index.html", "style.css", "header.npm", "script.js"
+        ],
+        correct: 2
+    }
 ];
 
 
